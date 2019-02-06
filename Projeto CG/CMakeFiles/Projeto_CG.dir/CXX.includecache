@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gabrielnunes/Desktop/Projeto CG/bresenham.h
+
+/Users/gabrielnunes/Desktop/Projeto CG/includes.h
+TargetConditionals.h
+/Users/gabrielnunes/Desktop/Projeto CG/TargetConditionals.h
+OpenGL/gl.h
+-
+OpenGl/glu.h
+-
+GLUT/glut.h
+-
+windows.h
+-
+GL/glut.h
+-
+GL/glu.h
+-
+GL/freeglut.h
+-
+GL/gl.h
+-
+
+/Users/gabrielnunes/Desktop/Projeto CG/main.cpp
+includes.h
+/Users/gabrielnunes/Desktop/Projeto CG/includes.h
+bresenham.h
+/Users/gabrielnunes/Desktop/Projeto CG/bresenham.h
+math.h
+-
+stdlib.h
+-
+
