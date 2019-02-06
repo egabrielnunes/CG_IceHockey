@@ -454,19 +454,14 @@ int main(int argc, char **argv) {
 
     printf("Colors:\n");
     printf("R: ");
-    //scanf("%f",&r);
+    scanf("%f",&r);
     printf("G: ");
-//    scanf("%f",&g);
+    scanf("%f",&g);
     printf("B: ");
-//    scanf("%f",&b);
-
-    r = 200;
-    g = 200;
-    b = 200;
-    line = 4;
+    scanf("%f",&b);
 
     printf("\nLine Size: ");
-//    scanf("%d",&line);
+    scanf("%d",&line);
 
     printf("\nPress 1 for BRESENHAM and 2 for DEFAULT\n");
     scanf("%d",&option);
